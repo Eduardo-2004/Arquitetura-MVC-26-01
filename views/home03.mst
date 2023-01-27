@@ -1,0 +1,19 @@
+<body style="background-image: linear-gradient(90deg, red,blue); text-align: center; color: white; list-style:none">
+
+<h1>Histórico Escolar - Matérias que fui Aprovado!</h1>
+
+{{#mostrar}}
+
+<hr/>
+
+<li>
+  {{#historico}}
+  <li>{{.}}</li>
+  {{/historico}}
+</li>
+ 
+<hr/>
+
+{{/mostrar}}
+
+</body>

@@ -1,0 +1,19 @@
+
+<body style="background-image: linear-gradient(90deg, red,blue); text-align: center; color: white; list-style:none">
+<h1>Grade de horária do 1ºSem/2023</h1>
+
+{{#mostrar}}
+
+<hr/>
+
+<li>
+  {{#grade}}
+  <li>{{.}}</li>
+  {{/grade}}
+<li/>
+
+{{/mostrar}}
+
+<hr/>
+
+</body>
